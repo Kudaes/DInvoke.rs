@@ -8,7 +8,7 @@ use_litcrypt!();
 
 extern crate alloc;
 
-
+use core::mem::size_of;
 use alloc::ffi::CString;
 use alloc::vec::Vec;
 use alloc::string::{String, ToString};

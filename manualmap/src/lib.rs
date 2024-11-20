@@ -7,6 +7,7 @@ extern crate alloc;
 extern crate litcrypt2;
 use_litcrypt!();
 
+use core::mem::size_of;
 use core::ptr;
 use core::{cell::UnsafeCell, ffi::c_void};
 use core::fmt::Write;
